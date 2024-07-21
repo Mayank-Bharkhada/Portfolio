@@ -1,5 +1,5 @@
 {
-    "roures": [
+    "routes": [
         {
             "src": "/[^.]+",
             "dest": "/"
