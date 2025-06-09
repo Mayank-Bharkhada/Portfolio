@@ -15,31 +15,24 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-           
             <p className="home-about-body">
-            I'm an enthusiastic and committed developer with a solid grasp of both frontend and backend technologies,
-              including <i>
-                <b className="purple"> JavaScript, Node.js, React.js, React Native. </b>
-              </i>
+              I'm a <b className="purple">Full-Stack Developer</b> with solid experience in web and mobile app development using{" "}
+              <b className="purple">JavaScript, TypeScript, Node.js, React.js, and PHP</b>.
               <br />
               <br />
-              Over the course of various projects, I've honed my skills in {" "}
-              <i>
-                <b className="purple">Mobile app development</b>  {" "}
-                using React Native, utilizing both react native-cli and expo CLI for both Android and IOS applocation, as well as <b className="purple">Web development</b>  with the MERN Stack, PHP, and more
-              </i>
-                <br />
-              <br />
-              <i>
-
-                Additionally, I've gained proficiency in Node.js frameworks like  {" "}
-                <b className="purple">
-                Strapi.
-                </b> 
-              </i>
+              I have expertise in{" "}
+              <b className="purple">
+                React Native, Express.js, Nest.js, Next.js, and the MERN stack
+              </b>
+              , building robust applications and REST APIs.
               <br />
               <br />
-            
+              Skilled in leveraging cloud platforms like{" "}
+              <b className="purple">AWS</b> and <b className="purple">Firebase</b>, and proficient with both{" "}
+              <b className="purple">SQL</b> and <b className="purple">NoSQL</b> databases.
+              <br />
+              <br />
+              Known for strong problem-solving abilities and delivering maintainable, scalable code.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -56,7 +49,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/Mayank-Bharkhada"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -66,32 +59,12 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/mayank-bharkhada-61b1a5257"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
                 </a>
               </li>
             </ul>
