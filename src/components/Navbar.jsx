@@ -6,7 +6,7 @@ import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
-import { ImBlog } from "react-icons/im";
+import ResumeLink from "../Assets/MayankBharkhadaCV.pdf";
 import {
   AiFillStar,
   AiOutlineHome,
@@ -29,6 +29,7 @@ function NavBar() {
   }
 
   window.addEventListener("scroll", scrollHandler);
+
 
   return (
     <Navbar
@@ -82,26 +83,15 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/resume"
-                onClick={() => updateExpanded(false)}
-              >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
-              </Nav.Link>
-            </Nav.Item>
-
-            {/* <Nav.Item>
-              <Nav.Link
-                href="https://soumyajitblogs.vercel.app/"
+            <Nav.Item className="fork-btn">
+              <Button
+                className="fork-btn-inner"
+                href={ResumeLink}
                 target="_blank"
-                rel="noreferrer"
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
-              </Nav.Link>
-            </Nav.Item> */}
-
+                <CgFileDocument style={{ fontSize: "1.2em", marginBottom: "2px" }} />{" "}Resume
+              </Button>
+            </Nav.Item>
             <Nav.Item className="fork-btn">
               <Button
                 href="https://github.com/Mayank-Bharkhada"
