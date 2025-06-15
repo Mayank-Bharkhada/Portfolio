@@ -8,6 +8,8 @@ import whereness from "../../Assets/Projects/whereness.png";
 import coolriots from "../../Assets/Projects/coolriots.png";
 import voiceping from "../../Assets/Projects/voiceping.png";
 import myeasydrop from "../../Assets/Projects/myeasydrop.png";
+import driftsense from "../../Assets/Projects/driftsense.png";
+import minta from "../../Assets/Projects/minta.png";
 
 function Projects() {
   return (
@@ -76,6 +78,24 @@ function Projects() {
               title="HSE-UAV Shopify Store"
               description="Developed a fully customized Shopify e-commerce store for HSE-UAV, focused on precision agriculture drone solutions. The project involved creating responsive, high-performance storefronts and customizing Shopify Liquid templates to meet unique business requirements."
               demoLink="https://hse-uav.myshopify.com/"  
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={driftsense}
+              isBlog={false}
+              title="DriftSense"
+              description="Drift Sense is a platform for real-time environmental monitoring, analyzing data with advanced sensors for agriculture, forestry, and urban planning. Features include real-time visualization, automated alerts, and predictive analytics."
+              demoLink="https://drift-sense.com/"  
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={minta}
+              isBlog={false}
+              title="Minta"
+              description="Minta is an AI-powered platform that automates video marketing and social media content creation. It integrates with Shopify, Facebook, Instagram, TikTok, and Pinterest, offering real-time analytics, AI-generated captions, and editing tools like filters, stickers, and text overlays to boost engagement and efficiency."
+              demoLink="https://www.minta.ai/"  
             />
           </Col>
         </Row>
