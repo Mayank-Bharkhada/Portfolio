@@ -10,6 +10,7 @@ import voiceping from "../../Assets/Projects/voiceping.png";
 import qyubic from "../../Assets/Projects/qyubic.png";
 import driftsense from "../../Assets/Projects/driftsense.png";
 import minta from "../../Assets/Projects/minta.png";
+import myeasydrop from "../../Assets/Projects/myeasydrop.png";
 
 function Projects() {
   return (
