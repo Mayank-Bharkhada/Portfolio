@@ -8,13 +8,15 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi, I'm <span className="purple">Mayank Bharkhada</span> from{" "}
+            Hi, I&apos;m <span className="purple">Mayank Bharkhada</span> from{" "}
             <span className="purple">Gujarat, India</span>.<br /><br />
-            <strong>🏡</strong> Giriraj Nagar - 2, Keshod, Junagadh, Gujarat – 362220<br />
-            <strong>📍</strong> Bapunagar, Ahmedabad, Gujarat – 382350
+            <strong>🏡</strong> Giriraj Nagar-2, Keshod, Junagadh, Gujarat – 362220<br />
+            <strong>📍</strong> Swastik Society, Navrangpura, Ahmedabad, Gujarat – 380009
             <br /><br />
-            I’m a dedicated <strong className="purple">Full-Stack Developer</strong> with experience building scalable applications using{" "}
-            <strong className="purple">TypeScript, React.js, Node.js, React Native, Next.js, ExpressJS, NestJS</strong> and cloud platforms.
+            I&apos;m a <strong className="purple">Full-Stack Developer</strong> experienced in building scalable web and mobile applications using{" "}
+            <strong className="purple">MERN, Next.js, NestJS, and React Native</strong>. Skilled in system design, clean architecture, and SOLID principles, with experience in{" "}
+            <strong className="purple">PostgreSQL, MySQL, MongoDB, Supabase</strong>, and AI/LLM integrations using the{" "}
+            <strong className="purple">LangChain ecosystem</strong>.
             <br /><br />
             Outside of development, I love to:
           </p>
@@ -32,7 +34,7 @@ function AboutCard() {
             ))}
           </ul>
           <p style={{ color: "rgb(155 126 172)", marginTop: 15 }}>
-            "Programming is less about what you already know and more about your ability to solve problems and create solutions."
+            &quot;Programming is less about what you already know and more about your ability to solve problems and create solutions.&quot;
           </p>
           <footer className="blockquote-footer">Mayank Bharkhada</footer>
         </blockquote>

@@ -6,7 +6,7 @@ import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
-import ResumeLink from "../Assets/MayankBharkhadaCV.pdf";
+const ResumeLink = "/MayankBharkhadaCV.pdf";
 import {
   AiFillStar,
   AiOutlineHome,

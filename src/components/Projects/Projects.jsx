@@ -7,7 +7,7 @@ import hseuav from "../../Assets/Projects/hseuav.png";
 import whereness from "../../Assets/Projects/whereness.png";
 import coolriots from "../../Assets/Projects/coolriots.png";
 import voiceping from "../../Assets/Projects/voiceping.png";
-import myeasydrop from "../../Assets/Projects/myeasydrop.png";
+import qyubic from "../../Assets/Projects/qyubic.png";
 import driftsense from "../../Assets/Projects/driftsense.png";
 import minta from "../../Assets/Projects/minta.png";
 
@@ -48,6 +48,16 @@ function Projects() {
               title="Voice-ping"
               description="Voice-ping breaks language barriers in real-time meetings by instantly translating 45 languages, including tech terms. It offers all-in-one tools like a text editor and whiteboard, integrates with Zoom and Teams, and lets you share a QR code for multi-language events—no app needed. Unite global teams easily with unlimited meetings, file sharing, and productivity features."
               demoLink="https://voice-ping.com/en"              
+            />
+          </Col>
+         
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={qyubic}
+              isBlog={false}
+              title="Qyubic"
+              description="Developed a scalable web and mobile coupon platform with high-performance backend services, delivering real-time hverified brand deals and a seamless cross-platform user experience across the Gulf region."
+              demoLink="https://qyubic.com/"              
             />
           </Col>
 
